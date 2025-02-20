@@ -1,0 +1,39 @@
+Feb 06 14:13:34.150 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Feb 06 14:13:34.151 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49960.
+Feb 06 14:13:34.647 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 14:13:34.648 HYPERVISOR: exec_cmd: hypervisor uuid 
+Feb 06 14:13:34.649 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Administrator/Desktop/JH/능력단위평가/평가3/2025_02_06_정현\project-files\dynamips 
+Feb 06 14:13:34.649 GENERAL: working_dir=C:/Users/Administrator/Desktop/JH/능력단위평가/평가3/2025_02_06_정현\project-files\dynamips
+Feb 06 14:13:34.650 HYPERVISOR: exec_cmd: vm create R1 5 c2691 
+Feb 06 14:13:34.654 VM: VM R1 created.
+Feb 06 14:13:34.656 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 2004 
+Feb 06 14:13:34.656 HYPERVISOR: exec_cmd: c2691 get_mac_addr R1 
+Feb 06 14:13:34.657 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Feb 06 14:13:34.657 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-2T 
+Feb 06 14:13:34.658 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Feb 06 14:13:34.659 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Feb 06 14:13:34.661 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN 
+Feb 06 14:13:34.662 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Feb 06 14:13:34.666 HYPERVISOR: exec_cmd: vm set_config R1 configs/i5_startup-config.cfg 
+Feb 06 14:13:34.667 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Feb 06 14:13:34.668 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C2691-AD.BIN-192.ghost 
+Feb 06 14:13:43.096 HYPERVISOR: exec_cmd: nio create_udp udp-ffd56c7f-f422-4a9e-814c-3be7481ded67 10000 127.0.0.1 10001 
+Feb 06 14:13:43.097 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-ffd56c7f-f422-4a9e-814c-3be7481ded67 
+Feb 06 14:13:43.097 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 06 14:13:53.117 HYPERVISOR: exec_cmd: vm rename R1 PC1 
+Feb 06 14:17:18.874 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Feb 06 14:26:00.739 HYPERVISOR: exec_cmd: vm get_status PC1 
+Feb 06 14:26:00.742 HYPERVISOR: exec_cmd: vm start PC1 
+Feb 06 14:34:50.315 HYPERVISOR: exec_cmd: vm get_status PC1 
+Feb 06 14:34:50.317 HYPERVISOR: exec_cmd: vm slot_disable_nio PC1 0 0 
+Feb 06 14:34:50.319 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding PC1 0 0 
+Feb 06 14:34:50.319 HYPERVISOR: exec_cmd: nio delete udp-ffd56c7f-f422-4a9e-814c-3be7481ded67 
+Feb 06 14:34:50.325 HYPERVISOR: exec_cmd: vm get_status PC1 
+Feb 06 14:34:50.325 HYPERVISOR: exec_cmd: vm stop PC1 
+Feb 06 14:34:50.369 VM: VM PC1 shutdown.
+Feb 06 14:34:50.369 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Feb 06 14:34:50.371 HYPERVISOR: exec_cmd: vm delete PC1 
+Feb 06 14:34:50.371 VM: VM PC1 destroyed.
+Feb 06 14:34:50.372 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 06 14:34:50.431 HYPERVISOR: Stopped.
+Feb 06 14:34:50.431 GENERAL: reset done.

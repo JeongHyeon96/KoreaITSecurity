@@ -1,0 +1,40 @@
+Feb 06 14:11:39.038 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Feb 06 14:11:39.038 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49948.
+Feb 06 14:11:39.544 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 14:11:39.545 HYPERVISOR: exec_cmd: hypervisor uuid 
+Feb 06 14:11:39.546 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Administrator/Desktop/JH/능력단위평가/평가3/2025_02_06_정현\project-files\dynamips 
+Feb 06 14:11:39.546 GENERAL: working_dir=C:/Users/Administrator/Desktop/JH/능력단위평가/평가3/2025_02_06_정현\project-files\dynamips
+Feb 06 14:11:39.547 HYPERVISOR: exec_cmd: vm create R3 3 c2691 
+Feb 06 14:11:39.552 VM: VM R3 created.
+Feb 06 14:11:39.553 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 2003 
+Feb 06 14:11:39.553 HYPERVISOR: exec_cmd: c2691 get_mac_addr R3 
+Feb 06 14:11:39.553 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Feb 06 14:11:39.554 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 16 WIC-2T 
+Feb 06 14:11:39.554 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Feb 06 14:11:39.554 HYPERVISOR: exec_cmd: vm set_ram R3 192 
+Feb 06 14:11:39.555 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN 
+Feb 06 14:11:39.555 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Feb 06 14:11:39.556 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+Feb 06 14:11:39.557 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Feb 06 14:11:39.557 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C2691-AD.BIN-192.ghost 
+Feb 06 14:12:27.569 HYPERVISOR: exec_cmd: nio create_udp udp-b5e4cbd7-0888-4cee-ab3a-64bec0d0083c 10007 127.0.0.1 10006 
+Feb 06 14:12:27.576 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-b5e4cbd7-0888-4cee-ab3a-64bec0d0083c 
+Feb 06 14:12:27.577 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 06 14:12:35.373 HYPERVISOR: exec_cmd: nio create_udp udp-eeb42bbb-6786-4888-88fc-d5a2370b32d9 10010 127.0.0.1 10011 
+Feb 06 14:12:35.378 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 16 udp-eeb42bbb-6786-4888-88fc-d5a2370b32d9 
+Feb 06 14:12:35.379 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 06 14:13:14.801 HYPERVISOR: exec_cmd: vm rename R3 Backup 
+Feb 06 14:17:18.875 HYPERVISOR: exec_cmd: vm extract_config Backup 
+Feb 06 14:26:00.740 HYPERVISOR: exec_cmd: vm get_status Backup 
+Feb 06 14:26:00.742 HYPERVISOR: exec_cmd: vm start Backup 
+Feb 06 14:43:09.638 HYPERVISOR: exec_cmd: vm extract_config Backup 
+Feb 06 18:53:01.121 HYPERVISOR: exec_cmd: vm get_status Backup 
+Feb 06 18:53:01.126 HYPERVISOR: exec_cmd: vm stop Backup 
+Feb 06 18:53:01.197 VM: VM Backup shutdown.
+Feb 06 18:53:02.501 HYPERVISOR: exec_cmd: vm get_status Backup 
+Feb 06 18:53:02.502 HYPERVISOR: exec_cmd: vm extract_config Backup 
+Feb 06 18:53:02.512 HYPERVISOR: exec_cmd: vm delete Backup 
+Feb 06 18:53:02.513 VM: VM Backup destroyed.
+Feb 06 18:53:02.514 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 06 18:53:02.708 HYPERVISOR: Stopped.
+Feb 06 18:53:02.708 GENERAL: reset done.

@@ -1,0 +1,40 @@
+Feb 06 14:11:36.877 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Feb 06 14:11:36.878 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49946.
+Feb 06 14:11:37.379 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 14:11:37.379 HYPERVISOR: exec_cmd: hypervisor uuid 
+Feb 06 14:11:37.380 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Administrator/Desktop/JH/능력단위평가/평가3/2025_02_06_정현\project-files\dynamips 
+Feb 06 14:11:37.380 GENERAL: working_dir=C:/Users/Administrator/Desktop/JH/능력단위평가/평가3/2025_02_06_정현\project-files\dynamips
+Feb 06 14:11:37.380 HYPERVISOR: exec_cmd: vm create R2 2 c2691 
+Feb 06 14:11:37.380 VM: VM R2 created.
+Feb 06 14:11:37.381 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 2002 
+Feb 06 14:11:37.381 HYPERVISOR: exec_cmd: c2691 get_mac_addr R2 
+Feb 06 14:11:37.381 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Feb 06 14:11:37.381 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-2T 
+Feb 06 14:11:37.382 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Feb 06 14:11:37.382 HYPERVISOR: exec_cmd: vm set_ram R2 192 
+Feb 06 14:11:37.382 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN 
+Feb 06 14:11:37.383 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Feb 06 14:11:37.385 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Feb 06 14:11:37.385 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Feb 06 14:11:37.385 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C2691-AD.BIN-192.ghost 
+Feb 06 14:12:30.768 HYPERVISOR: exec_cmd: nio create_udp udp-f577ea47-1060-4b5e-8016-5180a46346a5 10008 127.0.0.1 10009 
+Feb 06 14:12:30.772 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 16 udp-f577ea47-1060-4b5e-8016-5180a46346a5 
+Feb 06 14:12:30.772 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 06 14:12:35.378 HYPERVISOR: exec_cmd: nio create_udp udp-1d2fe2bc-6635-4acb-a512-2180d01543a9 10011 127.0.0.1 10010 
+Feb 06 14:12:35.379 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 17 udp-1d2fe2bc-6635-4acb-a512-2180d01543a9 
+Feb 06 14:12:35.379 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 06 14:14:04.859 HYPERVISOR: exec_cmd: vm rename R2 Internet 
+Feb 06 14:17:18.875 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Feb 06 14:26:00.740 HYPERVISOR: exec_cmd: vm get_status Internet 
+Feb 06 14:26:00.742 HYPERVISOR: exec_cmd: vm start Internet 
+Feb 06 14:43:09.650 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Feb 06 18:53:01.122 HYPERVISOR: exec_cmd: vm get_status Internet 
+Feb 06 18:53:01.126 HYPERVISOR: exec_cmd: vm stop Internet 
+Feb 06 18:53:01.198 VM: VM Internet shutdown.
+Feb 06 18:53:02.501 HYPERVISOR: exec_cmd: vm get_status Internet 
+Feb 06 18:53:02.501 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Feb 06 18:53:02.510 HYPERVISOR: exec_cmd: vm delete Internet 
+Feb 06 18:53:02.510 VM: VM Internet destroyed.
+Feb 06 18:53:02.513 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 06 18:53:02.708 HYPERVISOR: Stopped.
+Feb 06 18:53:02.708 GENERAL: reset done.

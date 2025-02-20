@@ -1,0 +1,26 @@
+Feb 06 14:11:42.988 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Feb 06 14:11:42.989 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49950.
+Feb 06 14:11:43.488 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 14:11:43.489 HYPERVISOR: exec_cmd: hypervisor uuid 
+Feb 06 14:11:43.489 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Administrator/Desktop/JH/능력단위평가/평가3/2025_02_06_정현\project-files\dynamips 
+Feb 06 14:11:43.489 GENERAL: working_dir=C:/Users/Administrator/Desktop/JH/능력단위평가/평가3/2025_02_06_정현\project-files\dynamips
+Feb 06 14:11:43.489 HYPERVISOR: exec_cmd: vm create R4 4 c2691 
+Feb 06 14:11:43.491 VM: VM R4 created.
+Feb 06 14:11:43.492 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 2004 
+Feb 06 14:11:43.492 HYPERVISOR: exec_cmd: c2691 get_mac_addr R4 
+Feb 06 14:11:43.492 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Feb 06 14:11:43.492 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 16 WIC-2T 
+Feb 06 14:11:43.493 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Feb 06 14:11:43.493 HYPERVISOR: exec_cmd: vm set_ram R4 192 
+Feb 06 14:11:43.493 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN 
+Feb 06 14:11:43.494 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Feb 06 14:11:43.495 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Feb 06 14:11:43.496 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Feb 06 14:11:43.496 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C2691-AD.BIN-192.ghost 
+Feb 06 14:11:49.753 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 06 14:11:49.753 HYPERVISOR: exec_cmd: vm extract_config R4 
+Feb 06 14:11:49.754 HYPERVISOR: exec_cmd: vm delete R4 
+Feb 06 14:11:49.754 VM: VM R4 destroyed.
+Feb 06 14:11:49.755 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 06 14:11:50.132 HYPERVISOR: Stopped.
+Feb 06 14:11:50.132 GENERAL: reset done.
