@@ -1,0 +1,38 @@
+Feb 06 13:55:55.310 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Feb 06 13:55:55.311 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49822.
+Feb 06 13:55:55.799 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 13:55:55.799 HYPERVISOR: exec_cmd: hypervisor uuid 
+Feb 06 13:55:55.799 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Administrator/Desktop/JH/TeamProject/개인\project-files\dynamips 
+Feb 06 13:55:55.799 GENERAL: working_dir=C:/Users/Administrator/Desktop/JH/TeamProject/개인\project-files\dynamips
+Feb 06 13:55:55.800 HYPERVISOR: exec_cmd: vm create pfSense 5 c2691 
+Feb 06 13:55:55.801 VM: VM pfSense created.
+Feb 06 13:55:55.804 HYPERVISOR: exec_cmd: vm set_con_tcp_port pfSense 2006 
+Feb 06 13:55:55.811 HYPERVISOR: exec_cmd: c2691 get_mac_addr pfSense 
+Feb 06 13:55:55.812 HYPERVISOR: exec_cmd: c2691 set_mac_addr pfSense c005.32ac.0000 
+Feb 06 13:55:55.813 HYPERVISOR: exec_cmd: vm set_ram pfSense 192 
+Feb 06 13:55:55.813 HYPERVISOR: exec_cmd: vm slot_add_binding pfSense 0 16 WIC-2T 
+Feb 06 13:55:55.814 HYPERVISOR: exec_cmd: vm set_exec_area pfSense 64 
+Feb 06 13:55:55.815 HYPERVISOR: exec_cmd: vm set_ios pfSense C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN 
+Feb 06 13:55:55.815 HYPERVISOR: exec_cmd: vm set_nvram pfSense 256 
+Feb 06 13:55:55.816 HYPERVISOR: exec_cmd: vm set_disk0 pfSense 0 
+Feb 06 13:55:55.817 HYPERVISOR: exec_cmd: vm set_config pfSense configs/i5_startup-config.cfg 
+Feb 06 13:55:56.169 HYPERVISOR: exec_cmd: vm set_ghost_status pfSense 2 
+Feb 06 13:55:56.200 HYPERVISOR: exec_cmd: vm set_ghost_file pfSense C2691-AD.BIN-192.ghost 
+Feb 06 13:55:56.606 HYPERVISOR: exec_cmd: nio create_udp udp-2ba5b1bf-e97e-429b-a108-f59a5fcce23e 10035 127.0.0.1 10034 
+Feb 06 13:55:56.608 HYPERVISOR: exec_cmd: vm slot_add_nio_binding pfSense 0 16 udp-2ba5b1bf-e97e-429b-a108-f59a5fcce23e 
+Feb 06 13:55:56.615 HYPERVISOR: exec_cmd: vm get_status pfSense 
+Feb 06 13:55:56.648 HYPERVISOR: exec_cmd: nio create_udp udp-fa3c4dbf-5625-4f82-9200-5464396f1183 10038 127.0.0.1 10039 
+Feb 06 13:55:56.649 HYPERVISOR: exec_cmd: vm slot_add_nio_binding pfSense 0 1 udp-fa3c4dbf-5625-4f82-9200-5464396f1183 
+Feb 06 13:55:56.656 HYPERVISOR: exec_cmd: vm get_status pfSense 
+Feb 06 13:55:58.888 HYPERVISOR: exec_cmd: vm get_status pfSense 
+Feb 06 13:55:58.889 HYPERVISOR: exec_cmd: vm start pfSense 
+Feb 06 14:10:19.637 HYPERVISOR: exec_cmd: vm get_status pfSense 
+Feb 06 14:10:19.638 HYPERVISOR: exec_cmd: vm stop pfSense 
+Feb 06 14:10:19.718 VM: VM pfSense shutdown.
+Feb 06 14:10:21.255 HYPERVISOR: exec_cmd: vm get_status pfSense 
+Feb 06 14:10:21.257 HYPERVISOR: exec_cmd: vm extract_config pfSense 
+Feb 06 14:10:21.259 HYPERVISOR: exec_cmd: vm delete pfSense 
+Feb 06 14:10:21.259 VM: VM pfSense destroyed.
+Feb 06 14:10:21.265 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 06 14:10:21.294 HYPERVISOR: Stopped.
+Feb 06 14:10:21.294 GENERAL: reset done.

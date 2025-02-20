@@ -1,0 +1,38 @@
+Feb 06 13:55:55.119 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Feb 06 13:55:55.124 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49812.
+Feb 06 13:55:55.245 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 06 13:55:55.250 HYPERVISOR: exec_cmd: hypervisor uuid 
+Feb 06 13:55:55.252 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Administrator/Desktop/JH/TeamProject/개인\project-files\dynamips 
+Feb 06 13:55:55.265 GENERAL: working_dir=C:/Users/Administrator/Desktop/JH/TeamProject/개인\project-files\dynamips
+Feb 06 13:55:55.268 HYPERVISOR: exec_cmd: vm create R4 4 c2691 
+Feb 06 13:55:55.269 VM: VM R4 created.
+Feb 06 13:55:55.276 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 2005 
+Feb 06 13:55:55.291 HYPERVISOR: exec_cmd: c2691 get_mac_addr R4 
+Feb 06 13:55:55.292 HYPERVISOR: exec_cmd: c2691 set_mac_addr R4 c004.2fec.0000 
+Feb 06 13:55:55.293 HYPERVISOR: exec_cmd: vm set_ram R4 192 
+Feb 06 13:55:55.294 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 16 WIC-2T 
+Feb 06 13:55:55.295 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Feb 06 13:55:55.296 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN 
+Feb 06 13:55:55.297 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Feb 06 13:55:55.298 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Feb 06 13:55:55.300 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Feb 06 13:55:56.075 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Feb 06 13:55:56.086 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C2691-AD.BIN-192.ghost 
+Feb 06 13:55:56.357 HYPERVISOR: exec_cmd: nio create_udp udp-fdf09301-cfed-4795-8f95-defe7e4903fa 10015 127.0.0.1 10014 
+Feb 06 13:55:56.358 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 16 udp-fdf09301-cfed-4795-8f95-defe7e4903fa 
+Feb 06 13:55:56.359 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 06 13:55:56.383 HYPERVISOR: exec_cmd: nio create_udp udp-a2522388-7dea-4e6c-98a8-dd1d9008f4a5 10012 127.0.0.1 10013 
+Feb 06 13:55:56.412 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-a2522388-7dea-4e6c-98a8-dd1d9008f4a5 
+Feb 06 13:55:56.425 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 06 13:55:58.889 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 06 13:55:58.890 HYPERVISOR: exec_cmd: vm start R4 
+Feb 06 14:10:19.638 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 06 14:10:19.638 HYPERVISOR: exec_cmd: vm stop R4 
+Feb 06 14:10:19.720 VM: VM R4 shutdown.
+Feb 06 14:10:21.256 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 06 14:10:21.257 HYPERVISOR: exec_cmd: vm extract_config R4 
+Feb 06 14:10:21.262 HYPERVISOR: exec_cmd: vm delete R4 
+Feb 06 14:10:21.263 VM: VM R4 destroyed.
+Feb 06 14:10:21.266 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 06 14:10:21.720 HYPERVISOR: Stopped.
+Feb 06 14:10:21.720 GENERAL: reset done.

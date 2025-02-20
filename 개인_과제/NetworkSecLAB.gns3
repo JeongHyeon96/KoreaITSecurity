@@ -1,0 +1,1873 @@
+{
+    "auto_start": false,
+    "name": "NetworkSecLAB",
+    "project_id": "c4108884-739e-496b-8ae8-8bf259ea4813",
+    "revision": 3,
+    "topology": {
+        "links": [
+            {
+                "description": "Link from CiscoASAv port Ethernet2 to SW3 port 1",
+                "destination_node_id": 8,
+                "destination_port_id": 37,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 74.46610814815452,
+                    "y": 25.035619280731453
+                },
+                "id": 1,
+                "source_node_id": 2,
+                "source_port_id": 7,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e2",
+                    "x": -25.466108148154518,
+                    "y": 20.464380719268547
+                }
+            },
+            {
+                "description": "Link from CiscoASAv port Ethernet0 to R1 port FastEthernet0/0",
+                "destination_node_id": 1,
+                "destination_port_id": 1,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": -26.712233667346,
+                    "y": 31.789415115659835
+                },
+                "id": 2,
+                "source_node_id": 2,
+                "source_port_id": 5,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 65.212233667346,
+                    "y": 24.710584884340165
+                }
+            },
+            {
+                "description": "Link from R1 port FastEthernet0/1 to SW1 port 1",
+                "destination_node_id": 6,
+                "destination_port_id": 21,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 1.374100789877275,
+                    "y": -4.866791873705608
+                },
+                "id": 3,
+                "source_node_id": 1,
+                "source_port_id": 2,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": 51.125899210122725,
+                    "y": 50.86679187370561
+                }
+            },
+            {
+                "description": "Link from SW3 port 2 to PC1 port Ethernet0",
+                "destination_node_id": 11,
+                "destination_port_id": 57,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 67.34608836815062,
+                    "y": 9.859477465224188
+                },
+                "id": 4,
+                "source_node_id": 8,
+                "source_port_id": 38,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 0.6539116318493825,
+                    "y": 35.64052253477581
+                }
+            },
+            {
+                "description": "Link from R4 port FastEthernet0/0 to SW2 port 2",
+                "destination_node_id": 7,
+                "destination_port_id": 30,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 69.79971702850176,
+                    "y": -4.579830217101062
+                },
+                "id": 5,
+                "source_node_id": 5,
+                "source_port_id": 17,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": -19.299717028501767,
+                    "y": 48.57983021710106
+                }
+            },
+            {
+                "description": "Link from SW1 port 7 to Windows10 port Ethernet0",
+                "destination_node_id": 12,
+                "destination_port_id": 58,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 71.48347474130307,
+                    "y": -1.8095623906528715
+                },
+                "id": 6,
+                "source_node_id": 6,
+                "source_port_id": 27,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "7",
+                    "x": 4.31322020695751,
+                    "y": 41.0476499125223
+                }
+            },
+            {
+                "description": "Link from R3 port FastEthernet0/0 to SW2 port 1",
+                "destination_node_id": 7,
+                "destination_port_id": 29,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": -13.348159680348346,
+                    "y": 1.4368021225857888
+                },
+                "id": 7,
+                "source_node_id": 4,
+                "source_port_id": 13,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": 58.848159680348346,
+                    "y": 41.56319787741421
+                }
+            },
+            {
+                "description": "Link from SW3 port 3 to Firefox3 port Ethernet0",
+                "destination_node_id": 14,
+                "destination_port_id": 60,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 69.44968454286527,
+                    "y": 44.8206009080173
+                },
+                "id": 8,
+                "source_node_id": 8,
+                "source_port_id": 39,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": -1.4496845428652705,
+                    "y": 0.6793990919827024
+                }
+            },
+            {
+                "description": "Link from SW2 port 3 to webterm1 port Ethernet0",
+                "destination_node_id": 15,
+                "destination_port_id": 61,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 17.960822002304965,
+                    "y": -5.783085356410993
+                },
+                "id": 9,
+                "source_node_id": 7,
+                "source_port_id": 31,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 50.039177997695035,
+                    "y": 36.28308535641099
+                }
+            },
+            {
+                "description": "Link from SW1 port 6 to Rocky9 port Ethernet0",
+                "destination_node_id": 17,
+                "destination_port_id": 63,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 29.77904447450487,
+                    "y": -10.407347707261607
+                },
+                "id": 10,
+                "source_node_id": 6,
+                "source_port_id": 26,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "6",
+                    "x": 38.22095552549513,
+                    "y": 55.90734770726161
+                }
+            },
+            {
+                "description": "Link from SW1 port 2 to webterm2 port Ethernet0",
+                "destination_node_id": 16,
+                "destination_port_id": 62,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 29.193507915464465,
+                    "y": 72.47865778678727
+                },
+                "id": 11,
+                "source_node_id": 6,
+                "source_port_id": 22,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 36.806492084535535,
+                    "y": -23.978657786787267
+                }
+            },
+            {
+                "description": "Link from R2 port Serial0/0 to R3 port Serial0/0",
+                "destination_node_id": 4,
+                "destination_port_id": 15,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "s0/0",
+                    "x": 63.58731486295915,
+                    "y": -3.7762714424370856
+                },
+                "id": 12,
+                "source_node_id": 3,
+                "source_port_id": 11,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "s0/0",
+                    "x": -44.58731486295916,
+                    "y": 29.776271442437093
+                }
+            },
+            {
+                "description": "Link from R2 port Serial0/1 to R4 port Serial0/0",
+                "destination_node_id": 5,
+                "destination_port_id": 19,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "s0/0",
+                    "x": -57.61611028855814,
+                    "y": -8.04307632301935
+                },
+                "id": 13,
+                "source_node_id": 3,
+                "source_port_id": 12,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "s0/1",
+                    "x": 75.61611028855813,
+                    "y": 23.04307632301935
+                }
+            },
+            {
+                "description": "Link from CiscoASAv port Ethernet1 to R2 port FastEthernet0/0",
+                "destination_node_id": 3,
+                "destination_port_id": 9,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/0",
+                    "x": -8.731584925014744,
+                    "y": -29.993309234139303
+                },
+                "id": 14,
+                "source_node_id": 2,
+                "source_port_id": 6,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e1",
+                    "x": 32.231584925014744,
+                    "y": 59.4933092341393
+                }
+            },
+            {
+                "description": "Link from SW1 port 3 to ROCKY9 port Ethernet0",
+                "destination_node_id": 18,
+                "destination_port_id": 64,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -0.04933884826937174,
+                    "y": 52.74952774876385
+                },
+                "id": 15,
+                "source_node_id": 6,
+                "source_port_id": 23,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "3",
+                    "x": 68.04933884826937,
+                    "y": -7.249527748763853
+                }
+            },
+            {
+                "description": "Link from SW1 port 5 to NIDS-Snort port Ethernet0",
+                "destination_node_id": 20,
+                "destination_port_id": 66,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -4.094698721567511,
+                    "y": -4.570926395942138
+                },
+                "id": 16,
+                "source_node_id": 6,
+                "source_port_id": 25,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "5",
+                    "x": 64.77575897725399,
+                    "y": 43.256741116753716
+                }
+            },
+            {
+                "description": "Link from SW1 port 4 to HIDS-OSSEC port Ethernet0",
+                "destination_node_id": 19,
+                "destination_port_id": 65,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": -7.38104339263964,
+                    "y": 26.41740727399886
+                },
+                "id": 17,
+                "source_node_id": 6,
+                "source_port_id": 24,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "4",
+                    "x": 75.38104339263964,
+                    "y": 19.08259272600114
+                }
+            },
+            {
+                "description": "Link from SW4 port 2 to Firefox1 port Ethernet0",
+                "destination_node_id": 13,
+                "destination_port_id": 59,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "e0",
+                    "x": 72.13119945522999,
+                    "y": 59.98553804248462
+                },
+                "id": 18,
+                "source_node_id": 10,
+                "source_port_id": 50,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "2",
+                    "x": 3.79504043581602,
+                    "y": -8.388430433987693
+                }
+            },
+            {
+                "description": "Link from pfSense port FastEthernet0/1 to SW4 port 1",
+                "destination_node_id": 10,
+                "destination_port_id": 49,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 66.56566565670482,
+                    "y": -9.197706588216136
+                },
+                "id": 19,
+                "source_node_id": 9,
+                "source_port_id": 46,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f0/1",
+                    "x": 1.934334343295177,
+                    "y": 47.197706588216136
+                }
+            },
+            {
+                "description": "Link from R3 port Serial0/1 to pfSense port Serial0/0",
+                "destination_node_id": 9,
+                "destination_port_id": 47,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "s0/0",
+                    "x": 64.90159320693681,
+                    "y": 22.21449131337046
+                },
+                "id": 20,
+                "source_node_id": 4,
+                "source_port_id": 16,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "s0/1",
+                    "x": -25.901593206936838,
+                    "y": 37.78550868662954
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "description": "Router c2691",
+                "dynamips_id": 1,
+                "id": 1,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R1",
+                    "x": 20.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to CiscoASAv on port Ethernet0",
+                        "id": 1,
+                        "link_id": 2,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 1",
+                        "id": 2,
+                        "link_id": 3,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 3,
+                        "name": "Serial0/0",
+                        "port_number": 16
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 4,
+                        "name": "Serial0/1",
+                        "port_number": 17
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 8,
+                    "console": 2001,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlesleep": 30,
+                    "image": "C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN",
+                    "iomem": 5,
+                    "mac_addr": "c001.2ea0.0000",
+                    "mmap": true,
+                    "name": "R1",
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "sparsemem": true,
+                    "startup_config": "configs/i1_startup-config.cfg",
+                    "system_id": "FTX0945W0MY",
+                    "wic0": "WIC-2T"
+                },
+                "server_id": 1,
+                "type": "C2691",
+                "vm_id": "12130a04-badc-4a32-982f-72c3e0a1247c",
+                "x": 107.0,
+                "y": -338.0
+            },
+            {
+                "default_symbol": ":/symbols/asa.normal.svg",
+                "description": "QEMU VM",
+                "hover_symbol": ":/symbols/asa.selected.svg",
+                "id": 2,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "CiscoASAv",
+                    "x": -16.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R1 on port FastEthernet0/0",
+                        "id": 5,
+                        "link_id": 2,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "description": "connected to R2 on port FastEthernet0/0",
+                        "id": 6,
+                        "link_id": 14,
+                        "name": "Ethernet1",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to SW3 on port 1",
+                        "id": 7,
+                        "link_id": 1,
+                        "name": "Ethernet2",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 3,
+                        "id": 8,
+                        "name": "Ethernet3",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "adapter_type": "e1000",
+                    "adapters": 4,
+                    "console": 2002,
+                    "cpu_throttling": 80,
+                    "initrd": "asa842-initrd.gz",
+                    "kernel_command_line": "ide_generic.probe_mask=0x01 ide_core.chs=0.0:980,16,32 auto nousb console=ttyS0,9600 bigphysarea=65536 ide1=noprobe no-hlt -net nic",
+                    "kernel_image": "asa842-vmlinuz",
+                    "legacy_networking": true,
+                    "name": "CiscoASAv",
+                    "options": "-icount auto -hdachs 980,16,32 -vga none -vnc none",
+                    "process_priority": "low",
+                    "qemu_path": "C:\\Program Files\\GNS3\\qemu-0.11.0\\qemu.exe",
+                    "ram": 1024
+                },
+                "server_id": 1,
+                "type": "QemuVM",
+                "vm_id": "da795ae8-e0de-4169-9ae4-6f65e998845c",
+                "x": -84.5,
+                "y": -321.5
+            },
+            {
+                "description": "Router c2691",
+                "dynamips_id": 2,
+                "id": 3,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R2",
+                    "x": 39.0,
+                    "y": -31.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to CiscoASAv on port Ethernet1",
+                        "id": 9,
+                        "link_id": 14,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 10,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R3 on port Serial0/0",
+                        "id": 11,
+                        "link_id": 12,
+                        "name": "Serial0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 16
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R4 on port Serial0/0",
+                        "id": 12,
+                        "link_id": 13,
+                        "name": "Serial0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 17
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 8,
+                    "console": 2003,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlesleep": 30,
+                    "image": "C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN",
+                    "iomem": 5,
+                    "mac_addr": "c002.1de0.0000",
+                    "mmap": true,
+                    "name": "R2",
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "sparsemem": true,
+                    "startup_config": "configs/i2_startup-config.cfg",
+                    "system_id": "FTX0945W0MY",
+                    "wic0": "WIC-2T"
+                },
+                "server_id": 1,
+                "type": "C2691",
+                "vm_id": "d76d1512-d00f-4c95-ba3f-b56bbd503120",
+                "x": -89.0,
+                "y": -150.0
+            },
+            {
+                "description": "Router c2691",
+                "dynamips_id": 3,
+                "id": 4,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R3",
+                    "x": 20.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW2 on port 1",
+                        "id": 13,
+                        "link_id": 7,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 14,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R2 on port Serial0/0",
+                        "id": 15,
+                        "link_id": 12,
+                        "name": "Serial0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 16
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to pfSense on port Serial0/0",
+                        "id": 16,
+                        "link_id": 20,
+                        "name": "Serial0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 17
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 8,
+                    "console": 2004,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlesleep": 30,
+                    "image": "C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN",
+                    "iomem": 5,
+                    "mac_addr": "c003.2ca0.0000",
+                    "mmap": true,
+                    "name": "R3",
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "sparsemem": true,
+                    "startup_config": "configs/i3_startup-config.cfg",
+                    "system_id": "FTX0945W0MY",
+                    "wic0": "WIC-2T"
+                },
+                "server_id": 1,
+                "type": "C2691",
+                "vm_id": "108869b8-4ee5-47ac-9949-543fa6eaaf26",
+                "x": -243.0,
+                "y": -45.0
+            },
+            {
+                "description": "Router c2691",
+                "dynamips_id": 4,
+                "id": 5,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "R4",
+                    "x": 20.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW2 on port 2",
+                        "id": 17,
+                        "link_id": 5,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 18,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R2 on port Serial0/1",
+                        "id": 19,
+                        "link_id": 13,
+                        "name": "Serial0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 16
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 20,
+                        "name": "Serial0/1",
+                        "port_number": 17
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 8,
+                    "console": 2005,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlesleep": 30,
+                    "image": "C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN",
+                    "iomem": 5,
+                    "mac_addr": "c004.2fec.0000",
+                    "mmap": true,
+                    "name": "R4",
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "sparsemem": true,
+                    "startup_config": "configs/i4_startup-config.cfg",
+                    "system_id": "FTX0945W0MY",
+                    "wic0": "WIC-2T"
+                },
+                "server_id": 1,
+                "type": "C2691",
+                "vm_id": "c8935adb-9a1f-4508-bebe-bdab31734f25",
+                "x": 43.0,
+                "y": -52.0
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "1128f03d-a34d-4015-9ae0-f72e542802cd",
+                "id": 6,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW1",
+                    "x": 16.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to R1 on port FastEthernet0/1",
+                        "id": 21,
+                        "link_id": 3,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to webterm2 on port Ethernet0",
+                        "id": 22,
+                        "link_id": 11,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to ROCKY9 on port Ethernet0",
+                        "id": 23,
+                        "link_id": 15,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to HIDS-OSSEC on port Ethernet0",
+                        "id": 24,
+                        "link_id": 17,
+                        "name": "4",
+                        "nio": "NIO_UDP",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to NIDS-Snort on port Ethernet0",
+                        "id": 25,
+                        "link_id": 16,
+                        "name": "5",
+                        "nio": "NIO_UDP",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to Rocky9 on port Ethernet0",
+                        "id": 26,
+                        "link_id": 10,
+                        "name": "6",
+                        "nio": "NIO_UDP",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to Windows10 on port Ethernet0",
+                        "id": 27,
+                        "link_id": 6,
+                        "name": "7",
+                        "nio": "NIO_UDP",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 28,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "SW1"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": 261.5,
+                "y": -236.0
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "182852bb-9354-4f57-8caa-ac7cc91b7cc1",
+                "id": 7,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW2",
+                    "x": 16.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to R3 on port FastEthernet0/0",
+                        "id": 29,
+                        "link_id": 7,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to R4 on port FastEthernet0/0",
+                        "id": 30,
+                        "link_id": 5,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to webterm1 on port Ethernet0",
+                        "id": 31,
+                        "link_id": 9,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 32,
+                        "name": "4",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 33,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 34,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 35,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 36,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "SW2"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -93.5,
+                "y": 28.0
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "dc92003f-bc99-40b7-bfcf-9efa0fc6edf9",
+                "id": 8,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW3",
+                    "x": 16.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to CiscoASAv on port Ethernet2",
+                        "id": 37,
+                        "link_id": 1,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to PC1 on port Ethernet0",
+                        "id": 38,
+                        "link_id": 4,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to Firefox3 on port Ethernet0",
+                        "id": 39,
+                        "link_id": 8,
+                        "name": "3",
+                        "nio": "NIO_UDP",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 40,
+                        "name": "4",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 41,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 42,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 43,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 44,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "SW3"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -301.5,
+                "y": -356.0
+            },
+            {
+                "description": "Router c2691",
+                "dynamips_id": 5,
+                "id": 9,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "pfSense",
+                    "x": 2.5,
+                    "y": -31.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "id": 45,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW4 on port 1",
+                        "id": 46,
+                        "link_id": 19,
+                        "name": "FastEthernet0/1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to R3 on port Serial0/1",
+                        "id": 47,
+                        "link_id": 20,
+                        "name": "Serial0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 16
+                    },
+                    {
+                        "adapter_number": 0,
+                        "id": 48,
+                        "name": "Serial0/1",
+                        "port_number": 17
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 8,
+                    "console": 2006,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlesleep": 30,
+                    "image": "C:/Users/Administrator/GNS3/images/IOS/C2691-AD.BIN",
+                    "iomem": 5,
+                    "mac_addr": "c005.32ac.0000",
+                    "mmap": true,
+                    "name": "pfSense",
+                    "nvram": 256,
+                    "platform": "c2691",
+                    "ram": 192,
+                    "slot0": "GT96100-FE",
+                    "sparsemem": true,
+                    "startup_config": "configs/i5_startup-config.cfg",
+                    "system_id": "FTX0945W0MY",
+                    "wic0": "WIC-2T"
+                },
+                "server_id": 1,
+                "type": "C2691",
+                "vm_id": "00c1aa4b-80be-4bff-87d8-90991738bb2e",
+                "x": -399.0,
+                "y": -12.0
+            },
+            {
+                "description": "Ethernet switch",
+                "device_id": "b68dd7a7-fe46-4ac6-9a87-65e683cdf6d0",
+                "id": 10,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "SW4",
+                    "x": 16.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "description": "connected to pfSense on port FastEthernet0/1",
+                        "id": 49,
+                        "link_id": 19,
+                        "name": "1",
+                        "nio": "NIO_UDP",
+                        "port_number": 1,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "description": "connected to Firefox1 on port Ethernet0",
+                        "id": 50,
+                        "link_id": 18,
+                        "name": "2",
+                        "nio": "NIO_UDP",
+                        "port_number": 2,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 51,
+                        "name": "3",
+                        "port_number": 3,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 52,
+                        "name": "4",
+                        "port_number": 4,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 53,
+                        "name": "5",
+                        "port_number": 5,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 54,
+                        "name": "6",
+                        "port_number": 6,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 55,
+                        "name": "7",
+                        "port_number": 7,
+                        "type": "access",
+                        "vlan": 1
+                    },
+                    {
+                        "id": 56,
+                        "name": "8",
+                        "port_number": 8,
+                        "type": "access",
+                        "vlan": 1
+                    }
+                ],
+                "properties": {
+                    "name": "SW4"
+                },
+                "server_id": 1,
+                "type": "EthernetSwitch",
+                "x": -491.5,
+                "y": 67.0
+            },
+            {
+                "description": "VPCS device",
+                "id": 11,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "PC1",
+                    "x": 14.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW3 on port 2",
+                        "id": 57,
+                        "link_id": 4,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2007,
+                    "name": "PC1",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "825a55c0-9ec1-46e4-a482-f9e3ea2f5d43",
+                "x": -463.5,
+                "y": -276.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 12,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Windows10",
+                    "x": -11.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 7",
+                        "id": 58,
+                        "link_id": 6,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2008,
+                    "name": "Windows10",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "6aa31fec-afdc-4dcb-90ea-5595d8ff8249",
+                "x": 137.5,
+                "y": -147.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 13,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Firefox1",
+                    "x": 0.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW4 on port 2",
+                        "id": 59,
+                        "link_id": 18,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2009,
+                    "name": "Firefox1",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "e86edfb2-d6d3-45cc-8dda-1379785c82e2",
+                "x": -592.5,
+                "y": -26.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 14,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Firefox3",
+                    "x": 0.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW3 on port 3",
+                        "id": 60,
+                        "link_id": 8,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2010,
+                    "name": "Firefox3",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "2561ddbc-3b97-4265-a852-fe954d5fcc21",
+                "x": -462.5,
+                "y": -437.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 15,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "webterm1",
+                    "x": -3.5,
+                    "y": -20.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW2 on port 3",
+                        "id": 61,
+                        "link_id": 9,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2011,
+                    "name": "webterm1",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "9119d4ae-5ac4-4bb8-8e98-681dcc365d03",
+                "x": -82.5,
+                "y": 123.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 16,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "webterm2",
+                    "x": -5.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 2",
+                        "id": 62,
+                        "link_id": 11,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2012,
+                    "name": "webterm2",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "5752fee5-8b68-4e20-89d1-6770028e9b09",
+                "x": 269.5,
+                "y": -402.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 17,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Rocky9",
+                    "x": 3.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 6",
+                        "id": 63,
+                        "link_id": 10,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2013,
+                    "name": "Rocky9",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "8c752dd9-f439-4bfc-bc4f-d31b9abd96bc",
+                "x": 276.5,
+                "y": -73.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 18,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "ROCKY9",
+                    "x": 0.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 3",
+                        "id": 64,
+                        "link_id": 15,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2014,
+                    "name": "ROCKY9",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "84c02589-8291-4c85-84b9-4d74659afe4e",
+                "x": 411.5,
+                "y": -355.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 19,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "HIDS-OSSEC",
+                    "x": -17.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 4",
+                        "id": 65,
+                        "link_id": 17,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2015,
+                    "name": "HIDS-OSSEC",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "00be603a-ed23-40fc-97dd-6cbfaac12af0",
+                "x": 471.5,
+                "y": -233.5
+            },
+            {
+                "description": "VPCS device",
+                "id": 20,
+                "label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "NIDS-Snort",
+                    "x": -11.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to SW1 on port 5",
+                        "id": 66,
+                        "link_id": 16,
+                        "name": "Ethernet0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2016,
+                    "name": "NIDS-Snort",
+                    "startup_script_path": "startup.vpc"
+                },
+                "server_id": 1,
+                "type": "VPCSDevice",
+                "vm_id": "f6dee586-be1a-408a-a0a5-a8d512adc5b3",
+                "x": 409.5,
+                "y": -114.5
+            }
+        ],
+        "notes": [
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Active",
+                "x": 51.5,
+                "y": -92.0
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "OSSEC Agent\nZabbix Agent",
+                "x": 119.0,
+                "y": -90.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "OSSEC Agent\nZabbix Server",
+                "x": 259.0,
+                "y": -15.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Ubuntu24",
+                "x": 474.0,
+                "y": -93.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Ubuntu24",
+                "x": 536.0,
+                "y": -215.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Suricata Rule",
+                "x": 479.0,
+                "y": -340.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Snort Rule\n1. Win10->OSSEC:http, ping \ud0d0\uc9c0\n2.Cent0S7->Win10:ping\ud0d0\uc9c0\n3. HIDS-> Cent0S7: /etc/passwd command injection \uacf5\uaca9 \ud0d0\uc9c0\n4. Kali-> Win10:Rand Source Attack DDos \uacf5\uaca9 \ud0d0\uc9c0\n5.Kali-> Cent0S7:SYN Flag Scanning  \ud0d0\uc9c0",
+                "x": 202.0,
+                "y": 54.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Firewall rule\n1.Firefox3 - inside:http,telnet \uc811\uc18d\n2.Webterm2 - dmz:telnet \uc811\uc18d\n3.PC1->webterm1:ping \uac00\ub2a5\n4.webterm1 - R1:http, telnet \uac00\ub2a5\n5.webterm2 -> PC1:ping \uac00\ub2a5",
+                "x": -172.0,
+                "y": -488.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "192.168.16.0/24 - \uc2e4\uc81c \ub124\ud2b8\uc6cc\ud06c \ub9dd",
+                "x": 496.0,
+                "y": -435.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "dmz\n 50",
+                "x": 2.0,
+                "y": -349.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "inside",
+                "x": -202.0,
+                "y": -310.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "oustside",
+                "x": -136.0,
+                "y": -220.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "HSRP",
+                "x": -91.0,
+                "y": -56.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Remote-Access",
+                "x": -528.0,
+                "y": -19.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Win10\n-openVPN Client",
+                "x": -630.0,
+                "y": 63.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "openVPN\nServer",
+                "x": -366.0,
+                "y": 37.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "Standby",
+                "x": -247.0,
+                "y": -91.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "16.10",
+                "x": 147.0,
+                "y": -55.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "16.20",
+                "x": 286.0,
+                "y": 18.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "16.30",
+                "x": 421.0,
+                "y": -52.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "16.40",
+                "x": 484.0,
+                "y": -172.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "16.50",
+                "x": 432.0,
+                "y": -295.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "16.60",
+                "x": 280.0,
+                "y": -346.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "16.254",
+                "x": 175.0,
+                "y": -315.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "1.1",
+                "x": 79.0,
+                "y": -340.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "1.2",
+                "x": -29.0,
+                "y": -325.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "2.254",
+                "x": -131.0,
+                "y": -330.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "2.200",
+                "x": -454.0,
+                "y": -376.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "2.100",
+                "x": -452.0,
+                "y": -217.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "3.1",
+                "x": -55.0,
+                "y": -244.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "3.2",
+                "x": -53.0,
+                "y": -195.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "4.1",
+                "x": -123.0,
+                "y": -138.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "5.1",
+                "x": -5.0,
+                "y": -146.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "4.2",
+                "x": -172.0,
+                "y": -68.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "5.2",
+                "x": -1.0,
+                "y": -77.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "6.254",
+                "x": -92.0,
+                "y": -26.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "6.100",
+                "x": -75.0,
+                "y": 169.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "6.2",
+                "x": 14.0,
+                "y": -23.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "7.1",
+                "x": -260.0,
+                "y": 7.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "7.2",
+                "x": -327.0,
+                "y": -8.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "8.254",
+                "x": -439.0,
+                "y": 13.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "8.100",
+                "x": -584.0,
+                "y": 31.5
+            },
+            {
+                "color": "#000000",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "6.1",
+                "x": -170.0,
+                "y": -24.5
+            }
+        ],
+        "servers": [
+            {
+                "cloud": false,
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 8000
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.3.13"
+}
